@@ -170,6 +170,6 @@ else if(num<0){
 }
 
 // example
-for(let i=0;i<4;i=+2){
+for(let i=0;i<40;i=+2){
     console.log("even number");
 }
