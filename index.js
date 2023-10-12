@@ -158,18 +158,37 @@
 //     console.log(i);
 // }
 // example
-let num=312
-if(num>100){
-    console.log("positive and greater than 100");
-}
-else if( num>0 && num<100){
-    console.log("positive and less than 100");
-}
-else if(num<0){
-    console.log("negative");
-}
+// let num=312
+// if(num>100){
+//     console.log("positive and greater than 100");
+// }
+// else if( num>0 && num<100){
+//     console.log("positive and less than 100");
+// }
+// else if(num<0){
+//     console.log("negative");
+// }
 
-// example
-for(let i=0;i<40;i=+2){
-    console.log("even number");
-}
+// // example
+// for(let i=0;i<4;i++){
+//     console.log("even number");
+// }
+// // example
+// for(let i=10;i>=1;i--){
+//     console.log("i");
+// }
+// // example
+// for (let i=0;i<=10;i+=1){
+//     console.log(i);
+// }
+// // 
+// for(let i=5;i<=20;i+=5){
+//         console.log(i);
+//     }
+//     // 
+//  for(let i=2;i<20;i+=2) {
+//     console.log(i);
+//  }  
+for (let i=)
+
+
