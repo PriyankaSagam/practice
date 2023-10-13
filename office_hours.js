@@ -26,10 +26,16 @@ let cars = ["bmw","Nissan","Honda","porsche",colors]
             console.log(counter +"even")
         }
     }
-    // for(let counter=0;counter<=20;counter++){
-    //     if{
-    //         console.log(counter +"prime")
-    //     }
-    //     }
+    for (let i = 2; i < 20; i ++){
+        sum = true;
+        for (j=2; j<i; j++){
+            if (i%j == 0){
+                sum = false;
+            }
+        }
+        if (sum){
+                console.log(i);
+        }
+    }
 
     // 

@@ -77,14 +77,29 @@
 // console.log('hello'==='goodbye') //false
 // console.log('hello'==="hello") //true
 
-let x = 5
-//exclamation point ! means opposite
-//5!=7
-console.log(x!=7) //true
-console.log(x!=5) //false
+// let x = 5
+// //exclamation point ! means opposite
+// //5!=7
+// console.log(x!=7) //true
+// console.log(x!=5) //false
 
-//5!=5
-console.log(x!==5)//false
-//5!=='5'
-console.log(x!=='5')//true
-console.log(x!==8)//true
+// //5!=5
+// console.log(x!==5)//false
+// //5!=='5'
+// console.log(x!=='5')//true
+// console.log(x!==8)//true
+
+// let x = 5
+// //5>3
+// console.log(x > 3) //true
+
+// console.log(x > 9)//false
+
+// console.log(x < 3) //false
+
+// console.log(5 < 5) //false
+
+// console.log(x <= 5) //true
+
+// console.log(x >= 5) //true
+
