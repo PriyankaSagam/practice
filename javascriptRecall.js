@@ -109,48 +109,80 @@
 // console.log(a !== a - d); // note: the answer is a simple arithmetic equation, not something "weird"
 // console.log(48 == '48');
 
-// //example1:
-
+// //example1:The Farm
+//declare a variable animal
 // let animal;
 // animal = "cow";
 // console.log(animal ,"= moooo" );
 // let animal2 =  "cat";
 // console.log(animal2 , "= Hey! you are not a cow");
 
-// //example2:
+//other way:
+
+// let animal='cow';
+// if(animal==='cow'){
+//     console.log('moo');
+// }
+// else {
+//     console.log('hey you are not a cow.');
+// }
+
+// //example2:E.driver's Ed
+
+
 
 // // let age=17;
 // // if(age>=16){
 // //     console.log("here are keys!");
 // // }
-// // else if(age<16){
+// // else if(age>0){
 // //     console.log("sorry, you're too young");
 // // }
+////else{
+   // // console.log('thats not a real age');
+// //}
+
+
+////for loops:
 
 // // //example:3
+//write aloop that will print all the numbers from 0 to 10,
 
-// // for(let i=0;i<11;i++){
+// // for(let i=0;i<=10;i++){
 // //     console.log(i);
 // // }
 
 // // //example:4
 
-// // for(let i=10;i<401;i++){
+///write aloop that will print all the numbers from 0 to 400,
+
+// // for(let i=10;i<=400;i++){
 // //     console.log(i);
 // // }
 
 // // //example:5
+
+///write aloop that will print out evry third number starting with the 12 and going no higher than 4000,
+
+//i+=3 is the same as i=i+3
+
 // // for(let i=12;i<4000 ;i+=3){
 // //     console.log(i);
 // //}
 
+//for(let i=400; i>3;i-=3){
+ //   console.log(i)
+//}
+
 // //example:6
+//print out the numbers that are within the range of 1-100
+//adjust your code to add a message next to even only that says:'<--is an even number'
 
 // // for(let i=0;i<=100;i++){
-// //     if(i%2==0){
+// //     if(i%2===0){
 // //         console.log(i ,"<--even number");
 // //     }
-// //     else if(i%2==1){
+// //     else (i%2==1){
 // //         console.log(i,"<--odd number");
 // //     }
 // // }
@@ -166,7 +198,7 @@
 // //one way
 
 // // for(let i=0;i<=30;i+=5){
-// //          console.log('i found a', i,' high five');
+// //          console.log('i found a', i,' . high five');
 // // }
 // //      for(let i=0;i<=30;i+=3){
 // //         console.log('i found a', i,'three is a crowd');
@@ -175,14 +207,17 @@
 // //second way 
 
 
-// // for(let i=0;i<=30;i++){
-// //     if(i%3==0){
-// //     console.log('i found a', i, 'three is a crowd');
-// //     }
-// //     else if(i%5==0){
-// //     console.log('i found a', i,'high five');
-// // }
-// // }
+//  for(let i=0;i<=30;i++){
+//     if(i%5===0 && i%3===0){
+//         console.log('i found a', i,'. high five  three is a crowd')
+//     }
+//      if(i%3==0){
+//      console.log('i found a', i, 'three is a crowd');
+//      }
+//     else if(i%5===0){
+//     console.log('i found a', i,'. high five');
+//  }
+//  }
 
 
 // let movies = ['a','b','c'];
@@ -207,15 +242,72 @@
 // }
 
 // //example:
-// let bank_account= 0;
-// for(let i=1;i<=10;i++){
-//     bank_account = bank_account+i;
-//     console.log(bank_account,i);
-// }
-// //console.log(bank_account);
-// bank_account = 0;
+let bank_account= 0;
+console.log('before the for loop:',bank_account);
+ for(let i=1;i<=10;i++){
+     bank_account = bank_account+i;
+     console.log('in the for loop,and i is:',i);
+     console.log('bank_account is:',bank_account);
+ }
+// console.log(bank_account);
+//  bank_account = 0;
 // for(let i=1;i<=100;i++){
-//     bank_account=bank_account+i;
-//     console.log(bank_account,i);
+//      bank_account=bank_account+i;
+//      console.log(bank_account,i);
 // }
-// console.log("bonus pay is: ", bank_account*2);
+//  console.log("bonus pay is: ", bank_account*2);
+
+
+// //example arrays
+
+// let quotes = ['i like dolphines','i like jellyfish','i like wolves']
+// {
+//     console.log(quotes);
+// }
+
+// //example
+
+// const randomthings = ['1','10','hello','true']
+// {
+//     console.log(randomthings);
+// }
+// let randomthing =randomthings [0];
+// {
+//     console.log(randomthing);
+// }
+// const random ='hello' ;
+// randomthings[random]='world';
+// {
+//     console.log(randomthings);
+// }
+
+// //example:
+
+// const ourClass = ['salty','zoom','sardine','slack','github'];
+// {
+//     console.log(ourClass);
+// }
+// let c = (ourClass[2]);{
+//     console.log(c);
+// }
+// const x = 'github';
+// ourClass [x] = 'octocat';
+// {console.log(ourClass);
+// }
+//  ourClass.push('cloud city');{
+//     console.log(ourClass);
+// }
+
+//example:
+
+// const myArray = [5,10,500,20];{
+//     console.log(myArray);
+// }
+// myArray.push = 'aegon';{
+//     console.log(myArray);
+// }
+
+
+
+
+   
