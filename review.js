@@ -34,5 +34,10 @@
     • Case-sentive! Try it out! :O
     • Can contain letters, digits, or the symbols $ and _
     • Can't start with 0-9
-    • Can't use reserved keywords in JS such as var, function, return, etc. 
+    • Can't use reserved keywords in JS such as var, function, return, etc.
+  
 */
+
+
+
+

@@ -34,7 +34,7 @@ let cars = ["bmw","Nissan","Honda","porsche",colors]
             }
         }
         if (sum){
-                console.log(i);
+                console.log(i,'prime');
         }
     }
 

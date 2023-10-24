@@ -173,14 +173,14 @@
 // for(let i=0;i<4;i++){
 //     console.log("even number");
 // }
-// // example
+// // // example
 // for(let i=10;i>=1;i--){
-//     console.log("i");
-// }
-// // example
-// for (let i=0;i<=10;i+=1){
 //     console.log(i);
 // }
+// // // example
+// for (let i=0;i<=10;i+=1){
+//     console.log(i);
+//  }
 // // 
 // for(let i=5;i<=20;i+=5){
 //         console.log(i);
@@ -188,7 +188,101 @@
 //     // 
 //  for(let i=2;i<20;i+=2) {
 //     console.log(i);
-//  }  
+//  } 
+
+//example:output=>1,3,5,7,9 2,4,6,8,10
+// for(let i=1;i<=10;i+=2){
+//     console.log(i);
+// }
+//     for(let i= 2;i<=10;i+=2){
+//      console.log(i);
+//     }
+    
+//example:create a loop that outputs multiples of 3 starting at 6 ending at 60.
+
+// for(let i=6;i<=60;i+=3){
+//     console.log(i);
+// }
+
+
+///output => have a fantastic day!
+// have a wonderful day!
+// have a great day!
+
+// const synonyms = ['fantastic', 'wonderful', 'great'];
+// const greetings = synonyms[0];{
+// console.log('have a', greetings, 'day!');
+// }
+//  console.log('have a', synonyms[1], 'day!');
+//  console.log('have a', synonyms[2], 'day!');t
+
+
+///output => My name is Jon Snow and I am from The Wall
+// My name is Arya Stark and i am from Winterfell
+// My name is Jamie Lannister and i am from Kings Landing       
+
+// const firstNames = ["Jon", "Arya", "Jamie"];
+// const lastNames = ["Snow", "Stark", "Lannister"];
+// const places = ["The Wall", "Winterfell", "Kings Landing"];
+// console.log('My name is',firstNames[0],lastNames[0],'and I am from',places[0]);
+// console.log('My name is',firstNames[1],lastNames[1],'and i am from',places[1]);
+// console.log('My name is',firstNames[2],lastNames[2],'and i am from',places[2]);
+
+///output => [3,4,5,6,7]
+
+// const increaseByTwo = [1, 2, 3, 4, 5];
+// // ADD CODE HERE
+// for(let i=0;i<increaseByTwo.length;i++){
+//   increaseByTwo[i]+=2
+// }
+//   console.log(increaseByTwo);
+
+//example:
+// let y=''
+// for(let i=0;i<7;i++)
+// {
+//     y=y+'#'
+//     console.log(y);
+// }
+
+// example:
+// let text = '';
+// let i = 0;
+// while (i<10){
+//     text += 'the number is' + i + ' ';
+//     i++;
+// }
+// console.log(text);
+
+//example:count =2
+
+// let i=0;
+// while(i<8){
+//     i=i+2;
+//     console.log(i);
+// }  
+// let addThis=0;
+// sum=0;
+// while(addThis<9){
+//       addThis+=1;
+//       console.log(addThis);
+//       }
+
+//example:
+//addThis should equal 10
+//sum should equal 45
+
+// let addThis=0;
+// let sum=addThis=5
+// while(addThis<10){
+//       addThis+=1;
+//       console.log(addThis);
+//       sum=sum+addThis;
+//       console.log(sum);
+//       }
+
+
+
 
 
 
