@@ -62,7 +62,7 @@ class Person{
 
 //Instantiate a new Person named Timmy
 const timmy=new Person('Timmy')
-////Age Timmy five years
+//Age Timmy five years
     for(let i =0; i < 5; i++){
         timmy.ageUp()
 }
@@ -71,6 +71,7 @@ const timmy=new Person('Timmy')
 
 for(let i =0; i < 5; i++){
     timmy.eat()
+    
   }
   //Now Timmy's a little heavier than he wants to be. Kindergarten's coming up and 
   //he wants to look good. Have him exercise five times
@@ -91,6 +92,7 @@ for(let i =0; i < 5; i++){
   for(let i =0; i < 15; i++){
     timmy.ageUp()
   }
+  
   //Have Timmy eat twice
   for(let i =0; i < 2; i++){
     timmy.eat()
@@ -101,4 +103,31 @@ for(let i =0; i < 5; i++){
   }
   
 
-  
+  console.log(timmy);
+  console.log(gus);
+
+
+  //==================================================================================================
+
+  //====================
+  //chef
+  //====================
+class Dinner{
+    constructor(appetizer,entree,dessert){
+        this.appetizer=appetizer
+        this.entree=entree
+        this.dessert=dessert
+    }
+}
+class Chef{
+    
+makedinner(appetizer,entree,dessert){
+    return new Dinner(appetizer,entree,dessert)
+
+}
+}   
+
+const chef1=new Chef()
+console.log(chef1.makedinner('fries','noodles','cake'));
+console.log(chef1.makedinner('wings','pasta','pastree'));
+console.log(chef1.makedinner('fish fillets','fried rice','ice cream'));
