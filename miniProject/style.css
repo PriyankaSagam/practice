@@ -1,0 +1,61 @@
+
+header{
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(47, 62, 151);
+    background-color: rgb(132, 132, 182);
+    height: 100px;
+
+}
+.container{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 30px;
+}
+.image{
+    width:400px;
+    height:400px;
+
+}
+#attack{
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+    
+
+}
+#continue{
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+
+}
+#retreat{
+    background-color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+
+}
+body{
+    background-color: rgb(120, 93, 18);
+    height:500px;
+}
+footer{
+    background-color: rgb(61, 129, 189);
+    height:flex;
+    width:100%;
+}
+#text{
+    display:inline-block;
+    font-size: large;
+}
+
+
+
+
